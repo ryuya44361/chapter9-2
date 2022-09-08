@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+}
+
+header,.step-Number{
+  background-color:  #ff9a4b;
+}
+
+main{
+  width: 960px;
+  margin: 50px;
+  display: flex;
+  justify-content:center;
+}

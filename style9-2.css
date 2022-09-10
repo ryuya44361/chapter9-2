@@ -6,13 +6,16 @@
 
 header{
   height: 50px;
-}
-
-header,.step-Number{
   background-color:  #ff9a4b;
 }
 
 main{
+width: 100%;
+display: flex;
+  justify-content:center;
+}
+
+.main-box{
   width: 960px;
   margin: 50px;
   display: flex;
@@ -23,6 +26,7 @@ main{
   width: 300px;
   background-color: #EEEEEE;
   padding: 10px;
+  position: relative;
 }
 
 .step-box:nth-child(even){
@@ -30,20 +34,39 @@ main{
   margin-right: 30px;
 }
 
-.step-img{
-  height: 150px;
+.step-Number{
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color:  #ff9a4b;
+  color: #fff;
 }
 
-.step-img:nth-child(1){
-background-image: url(img/flow01.png) ;
+
+.step-img1{
+background-image: url(img/flow01.png);
+ height: 150px;
+ background-size: cover;
+ background-position: bottom;
 }
 
-.step-img:nth-child(2){
-background-image: url(img/flow02.png) ;
+.step-img2{
+background-image: url(img/flow02.png);
+ height: 150px;
+ background-size: cover;
+ background-position: bottom;
 }
 
-.step-img:nth-child(3){
-background-image: url(img/flow03.png) ;
+.step-img3{
+background-image: url(img/flow03.png);
+ height: 150px;
+ background-size: cover;
+ background-position: bottom;
+}
+
+.taitol-box{
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 
